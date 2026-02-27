@@ -1,0 +1,58 @@
+{
+  "entries": [
+    {
+      "service": "apache",
+      "version": "2.4.49",
+      "cves": [
+        {
+          "cve_id": "CVE-2021-41773",
+          "description": "Path traversal and file disclosure vulnerability in Apache HTTP Server 2.4.49.",
+          "severity": "HIGH",
+          "reference": "https://nvd.nist.gov/vuln/detail/CVE-2021-41773"
+        },
+        {
+          "cve_id": "CVE-2021-42013",
+          "description": "Path traversal and remote code execution in Apache HTTP Server (related to 2.4.49/2.4.50 configurations).",
+          "severity": "CRITICAL",
+          "reference": "https://nvd.nist.gov/vuln/detail/CVE-2021-42013"
+        }
+      ]
+    },
+    {
+      "service": "apache",
+      "version": "2.4.48-2.4.50",
+      "cves": [
+        {
+          "cve_id": "CVE-TEST-RANGE-0001",
+          "description": "Demo CVE entry for Apache versions 2.4.48 to 2.4.50 (range match example).",
+          "severity": "MEDIUM",
+          "reference": "https://example.com/demo-range-cve"
+        }
+      ]
+    },
+    {
+      "service": "openssh",
+      "version": "7.2p2",
+      "cves": [
+        {
+          "cve_id": "CVE-2016-10012",
+          "description": "OpenSSH 7.2p2: some configurations may allow information leak or weakness depending on use-case.",
+          "severity": "MEDIUM",
+          "reference": "https://nvd.nist.gov/vuln/detail/CVE-2016-10012"
+        }
+      ]
+    },
+    {
+      "service": "vsftpd",
+      "version": "2.3.4",
+      "cves": [
+        {
+          "cve_id": "CVE-2011-2523",
+          "description": "vsftpd 2.3.4 backdoor command execution vulnerability.",
+          "severity": "CRITICAL",
+          "reference": "https://nvd.nist.gov/vuln/detail/CVE-2011-2523"
+        }
+      ]
+    }
+  ]
+}
